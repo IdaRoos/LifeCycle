@@ -57,7 +57,7 @@ class FormActivity : AppCompatActivity() {
                     "email" to email,
                     "hasDrivingLicense" to hasDrivingLicense,
                     "gender" to gender,
-                    "timestamp" to FieldValue.serverTimestamp()
+                    "timestamp" to FieldValue.serverTimestamp() // För att hämta senaste dokumentet i FormActivity
 
                 )
 
