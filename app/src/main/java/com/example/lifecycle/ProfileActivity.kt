@@ -38,7 +38,7 @@ class ProfileActivity : AppCompatActivity() {
 
 // Hämta alla dokument i collection "usersinformation"
         db.collection("usersinformation")
-            .orderBy("timestamp", Query.Direction.DESCENDING)
+            .orderBy("timestamp", Query.Direction.DESCENDING) // order by senast tillagda datan
             .limit(1)
             .get()
             .addOnSuccessListener { querySnapshot ->
