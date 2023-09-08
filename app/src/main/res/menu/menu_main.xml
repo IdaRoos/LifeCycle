@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Profile-alternativet -->
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <!-- Register Account-alternativet -->
+    <item
+        android:id="@+id/menu_form"
+        android:title="Add information"
+        app:showAsAction="never" />
+
+    <!-- Register Account-alternativet -->
+    <item
+        android:id="@+id/menu_register"
+        android:title="Register Account"
+        app:showAsAction="never" />
+
+    <!-- Logout-alternativet -->
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>
